@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div style="font-family: montserrat; font-size: 30px; font-weight: 900; color: white; padding-bottom: 10px;">WORKLIST</div>
+    <main>
+      <img src="./img/Check_list.svg" alt="Icone" style="width: 120px;"/>
+      <form>
+        <input
+          class="input-item"
+          id="input-item"
+          type="text"
+          placeholder="Digite o item que deseja adicionar"
+        />
+        <button class="button-item" id="adicionar-item" type="button">Salvar</button>
+      </form>
+
+      <div class="container-lista">
+        <h2>Lista de Tarefas</h2>
+        <hr />
+
+        <ul id="lista-de-compras"></ul>
+        <p class="mensagem-lista-vazia">Não há nenhum item na lista no momento.</p>
+      </div>
+    </main>
+    <div style="font-family: montserrat; font-size: 15px; font-weight: 500; color: white; padding-top: 10px;">Feito por GABRIELKOSTA 🚀</div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
