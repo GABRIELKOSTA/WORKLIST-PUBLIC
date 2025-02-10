@@ -241,3 +241,11 @@ ul {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+.texto-info {
+    white-space: pre-wrap; /* Permite quebras de linha automáticas */
+    word-wrap: break-word; /* Quebra a palavra no limite da largura */
+    font-size: 14px; /* Tamanho da fonte */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    overflow-wrap: break-word; /* Garante a quebra de palavras */
+    margin: 10px 0; /* Espaçamento para que o texto não fique colado na borda */
+}
